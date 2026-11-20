@@ -43,7 +43,7 @@ const golpesNecesarios = limitar(resistencia, 1, 999);
 const numeroDePicos = limitar(picos, 3, 12);
 const sinMovimiento = matchMedia('(prefers-reduced-motion: reduce)').matches;
 const movimiento = sinMovimiento ? niveles[0] : niveles[limitar(travesura, 0, 3)];
-const contenido = dulces.length > 0 ? dulces : ['🍬'];
+const contenido = dulces.length > 0 ? dulces : ['🍬','🍭', '🍫', '🥜', '🍊', '🍡'];,];
 
 const patio = document.querySelector('#patio');
 const colgante = document.querySelector('#colgante');
